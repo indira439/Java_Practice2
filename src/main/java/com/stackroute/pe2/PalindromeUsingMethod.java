@@ -20,13 +20,13 @@ public class PalindromeUsingMethod {
 
     public static void main (String[] args) {
 
-        String a;
+        String input;
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the input string:");
-        a = sc.next();
+        input = sc.next();
 
-        checkPalindrome(a);
+        checkPalindrome(input);
     }
 
 }
